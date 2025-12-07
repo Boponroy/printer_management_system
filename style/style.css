@@ -27,6 +27,11 @@ body {
     width: 100%;
     padding: 30px;
     border-radius: 10px;
+    display: none;
+}
+
+.form-box.active {
+    display: block;
 }
 
 h2 {
@@ -35,7 +40,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-input {
+input, select {
     border: none;
     margin: none;
     width: 100%;
@@ -44,6 +49,7 @@ input {
     font-size: 16px;
     margin-bottom: 20px;
     background: #D3D3D3;
+    color: #757575;
 }
 
 button {
