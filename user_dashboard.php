@@ -35,10 +35,10 @@ $conn->close();
 </head>
 <body>
     <nav>
-        <a href="">Upload Print Job</a>
+        <a href="upload_print.php">Upload Print Job</a>
         <a href="">View Active Job</a>
         <a href="">Print History</a>
-        <button>Log Out</button>
+        <button onclick="window.location.href='logout.php'">Log Out</button>
     </nav>
 
     <div class="container">
