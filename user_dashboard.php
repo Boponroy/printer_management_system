@@ -42,11 +42,13 @@ $conn->close();
     </nav>
 
     <div class="container">
-        <h1>Welcome <span><?= $_SESSION['name']; ?></span></h1>
-        <div class="page">
-            <p>Total page remaining</p>
-            <div class="page-box">
-                <span><?= $pages_count; ?></span>
+        <div class="box">
+            <h1>Welcome <span><?= $_SESSION['name']; ?></span></h1>
+            <div class="page">
+                <p>Total page remaining</p>
+                <div class="page-box">
+                    <span><?= $pages_count; ?></span>
+                </div>
             </div>
         </div>
     </div>
