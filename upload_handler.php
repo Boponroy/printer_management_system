@@ -12,10 +12,10 @@ $dbname = "print_management_db";
 $target_dir = "uploads/";
 
 // Get User ID from session
-if (!isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['id'])) {
     die("ERROR: Not logged in.");
 }
-$loggedInId = $_SESSION['user_id'];
+$loggedInId = $_SESSION['id'];
 
 // Check form submission
 if (!isset($_POST["uploadSubmit"])) {
